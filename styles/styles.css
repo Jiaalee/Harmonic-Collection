@@ -136,30 +136,86 @@ html {
 }
 
 
-  .popup{
-    width: 320px;
-    height: 520px;
-    background: #fff;
-    border-radius: 25px;
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0.1);
-    text-align: center;
-    padding: 0 30px 30px;
-    color: #333;
-    visibility: hidden;
-    transition: transform 0.4s, top 0.4s;
-    
-}
-
-.open-popup{
-  visibility: visible;
-  top: -31%;
-  transform: translate(-50%, 50%) scale(1);
-}
 
 .btn img {
   max-width:220px;
   height: auto;
+}
+
+
+/* Hide the popups by default */
+.popup-1,
+.popup-2,
+.popup-3,
+.popup-4,
+.popup-5,
+.popup-6,
+.popup-7 {
+  display: none;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color:  #A155B9;
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+  width: 320px;
+  height: 520px;
+  z-index: 1;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); }
+
+/* Style for the OK button inside the popups */
+.overlay button {
+  position: absolute;
+  background: none;
+  border: none;
+  color: #81598DC2;
+  cursor: pointer;
+  top: 1%;
+  right: 1%;
+  margin-top: 10px; }
+
+  .overlay {
+    display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    background-color: rgba(204, 148, 222, 0.65); /* Semi-transparent black background */
+    z-index: 1; }
+  
+.flip img{
+  width: 340px;
+  height: auto;
+  position: relative;
+ 
+  left: 50%;
+  transform: translate( -50%);
+}
+
+.photo img{
+  position: absolute;
+  width: 290px;
+  height: auto;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.flip h2 {
+  font-family: "Assistant";
+  color: #FFF;
+text-align: center;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+bottom: 18px;
+position: absolute;
 }
