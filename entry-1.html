@@ -11,29 +11,72 @@
         <h2>Entry 1</h2>
         <div class="upright-cards">
             <ul>
-              <li><a href="#">
-                <img src="img/Group 6.svg" alt="Back of tarot card" width="220px" height="320px">
-                </a></li>  
-            <li><a href="#">
-                <img src="img/Group 6.svg" alt="Back of tarot card" width="220px" height="320px">
-                </a></li>  
-                <li><a href="#">
-                    <img src="img/Group 6.svg" alt="Back of tarot card" width="220px" height="320px">
-                    </a></li> 
-                <li><a href="#">
-                <img src="img/Group 6.svg" alt="Back of tarot card" width="220px" height="320px">
-                </a></li>  
-                <li><a href="#">
-                    <img src="img/Group 6.svg" alt="Back of tarot card" width="220px" height="320px">
-                    </a></li>  
-                <li><a href="#">
-                <img src="img/Group 6.svg" alt="Back of tarot card" width="220px" height="320px">
-                </a></li>  
-              <li><a href="#">
-                <img src="img/Group 6.svg" alt="Back of tarot card" width="220px" height="320px">
-                </a></li> 
-            </ul>
+              <li> <button type="submit" class ="btn" onclick="openPopup()">
+                <img src ="img/Group 6.svg" alt = "Back of a tarot card"></button></li>  
+                <div class="popup" id="popup">
+                  <h2>0.The Fool</h2>
+                  <button type="button" onclick="closePopup()">OK</button>
+              </div>
+              <li> <button type="submit" class ="btn" onclick="openPopup()">
+                <img src ="img/Group 6.svg" alt = "Back of a tarot card"></button></li>  
+                <div class="popup" id="popup">
+                  <h2>Thank You!</h2>
+                  <p>Your details</p>
+                  <button type="button" onclick="closePopup()">OK</button>
+              </div>
+              <li> <button type="submit" class ="btn" onclick="openPopup()">
+                <img src ="img/Group 6.svg" alt = "Back of a tarot card"></button></li>  
+                <div class="popup" id="popup">
+                  <h2>Thank You!</h2>
+                  <p>Your details</p>
+                  <button type="button" onclick="closePopup()">OK</button>
+              </div>
+              <li> <button type="submit" class ="btn" onclick="openPopup()">
+                <img src ="img/Group 6.svg" alt = "Back of a tarot card"></button></li>  
+                <div class="popup" id="popup">
+                  <h2>Thank You!</h2>
+                  <p>Your details</p>
+                  <button type="button" onclick="closePopup()">OK</button>
+              </div>
+              <li> <button type="submit" class ="btn" onclick="openPopup()">
+                <img src ="img/Group 6.svg" alt = "Back of a tarot card"></button></li>  
+                <div class="popup" id="popup">
+                  <h2>Thank You!</h2>
+                  <p>Your details</p>
+                  <button type="button" onclick="closePopup()">OK</button>
+              </div>
+              <li> <button type="submit" class ="btn" onclick="openPopup()">
+                <img src ="img/Group 6.svg" alt = "Back of a tarot card"></button></li>  
+                <div class="popup" id="popup">
+                  <h2>Thank You!</h2>
+                  <p>Your details</p>
+                  <button type="button" onclick="closePopup()">OK</button>
+              </div>
+              <li> <button type="submit" class ="btn" onclick="openPopup()">
+                <img src ="img/Group 6.svg" alt = "Back of a tarot card"></button></li>  
+                <div class="popup" id="popup">
+                  <h2>Thank You!</h2>
+                  <p>Your details</p>
+                  <button type="button" onclick="closePopup()">OK</button>
+              </div>
+
 
         </div>
 
     </div>
+
+    <script>
+      let popup = document.getElementById("popup");
+      function openPopup(){
+          popup.classList.add("open-popup");
+      }
+      function closePopup(){
+          popup.classList.remove("open-popup");
+      }
+  </script>
+
+
+
+    <div class="container">
+     
+      </button>

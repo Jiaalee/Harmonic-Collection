@@ -48,6 +48,13 @@ html {
   background-color: #FFE193;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);;
 }
+
+.entries-btn:hover{
+  background-color: #ffd364;
+  color: #fff;
+}
+
+
 *,
 *::after
 *::before {
@@ -79,6 +86,11 @@ html {
   background-color: #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);;
 }
+
+.btn-white:hover{
+  background-color: #EAB837;
+  color: #fff;
+}
  
 .btns {
   position: absolute;
@@ -92,24 +104,6 @@ html {
   grid-gap: 10px;
   list-style: none;
 }
-.btn-white-c {
-  display: inline-block;
-  text-decoration: none;
-  width: 300px;
-  padding: 25px 5px;
-  text-align: center;
-  margin: 40px 10px;
-  border: none;
-  border-radius: 40px;
-  font-family: "Assistant";
-  font-size: 30px;
-  font-weight: 700;
-  position: relative;
-  color: #EAB837;
-  background-color: #fff;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  grid-column: 2 / 3;
-}
 
 .entry-1 {
   width: 100%;
@@ -117,6 +111,7 @@ html {
   background: linear-gradient(245deg, #13208B 0%, rgba(255, 255, 255, 0.00) 49.07%), linear-gradient(49deg, #824496 -13.29%, rgba(186, 152, 197, 0.55) 16.05%, rgba(255, 255, 255, 0.00) 52.21%);
   background-size: cover;
   background-position: center;
+  text-align: center;
 }
 .upright-cards ul {
   display: grid;
@@ -130,4 +125,41 @@ html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.btn{
+  padding: 10px 20px;
+  border: 0;
+  outline: none;
+  background: none;
+  height: auto;
+}
+
+
+  .popup{
+    width: 320px;
+    height: 520px;
+    background: #fff;
+    border-radius: 25px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+    
+}
+
+.open-popup{
+  visibility: visible;
+  top: -31%;
+  transform: translate(-50%, 50%) scale(1);
+}
+
+.btn img {
+  max-width:220px;
+  height: auto;
 }
