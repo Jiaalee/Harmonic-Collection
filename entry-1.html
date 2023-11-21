@@ -3,130 +3,116 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-    <link href="styles/styles.css" rel="stylesheet">
+    <link href="styles/styles.css" rel="stylesheet">    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Kadwa&family=Miriam+Libre&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Kadwa&family=Lily+Script+One&family=Miriam+Libre&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Kadwa&family=Lily+Script+One&family=Meera+Inimai&family=Miriam+Libre&display=swap" rel="stylesheet">
     <link href="styles/styles.css" rel="stylesheet">
   </head>
   <body>
+    
+    <header>
+      <div class="head">
+        <nav>
+          <div class="back">
+            <a href="javascript:history.back()"><img src="img/Arrow 1.svg"></a>
+          </div>
+          <div class="logo">
+            <img src="img/tarot card.svg" alt="Tarot Card">
+          </div>
+        </nav>
+        </div>
 
-    <div class="entry-1">
-      <h2>Entry 1</h2>
-      <div class="upright-cards">
-        <ul>
-          <li>
-            <button type="button" class="btn" onclick="openPopup(1)">
-              <img src="img/Group 6.svg" alt="Back of a tarot card 1">
-            </button>
-            <div class="overlay" id="overlay-1">
-              <button type="button" onclick="closePopup(1)"><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none">
-                <path d="M31.0714 30.7143L68.5714 68.2143M31.0714 68.2143L68.5714 30.7143" stroke="#81598D" stroke-opacity="0.76" stroke-width="5"/>
-                </svg></button>
-            </div>
-            <div class="popup" id="popup-1">
-              <div class="flip">
-                <img src="img/Rectangle 2.svg">
-                <div class="photo">
-                <img src="img/Rectangle 4.png">
-               </div>
-                <h2>0. THE FOOL</h2>
+      </header>
+      <section class="tarot-first">
+        <div class="background left-background">
+          <div class="content leftim">
+            <!-- Left Content -->
+            <img src="img/Star 1.svg" alt="Star 1 Image">
+            <img src="img/Star 2.svg" alt="Star 2 Image">
+          </div>
+        </div>
+        <div class="background right-background">
+          <div class="content rightim">
+            <!-- Right Content -->
+            <h3>Tarot cards, known for their ability to unravel the mysteries of the past, present, and future, are a captivating tool for divination.</h3>
+            <p>While they don't predict one's fate, Tarot readings serve as a mirror to life's complexity, offering profound insights into the human experience. Through symbolism and intuition, Tarot readers decode energies surrounding an issue, revealing insights into possible outcomes and hidden influences.</p>
+            <img src="img/Star 6.svg" alt="Star 6 Image">
+            <img src="img/Star 7.svg" alt="Star 7 Image">
+          </div>
+        </div>
+        <div class="tarot-middle">
+          <!-- Central Content -->
+          <img src="img/Group 10.png" alt="Deck of Tarot Cards">
+        </div>
+      </section>
+      
+
+    <div class="wrapper">
+      <section class="tarot-types">
+        <img src="img/Rectangle 19.svg" alt="">
+        <div class="arcana1">
+          <img src="img/Star 8.svg" alt="star">
+          <h3>Major Arcana</h3>
+          <div class="box">
+            <a class="button" href="#popup1">Learn More</a>
+          </div>
+          <div id="popup1" class="overlay">
+            <div class="popup">
+              <h2>Major Arcana</h2>
+              <a class="close" href="#">&times;</a>
+              <div class="content">
+                These are the 22 most important cards in the Tarot deck, each representing significant life themes and spiritual lessons.The Major Arcana cards often address deeper, more profound aspects of life and personal development.
               </div>
             </div>
-          </li>
-          <li>
-            <button type="button" class="btn" onclick="openPopup(2)">
-                <img src="img/Group 6.svg" alt="Back of a tarot card 2">
-            </button>
-            <div class="overlay" id="overlay-2"> <button type="button" onclick="closePopup(2)"><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none">
-              <path d="M31.0714 30.7143L68.5714 68.2143M31.0714 68.2143L68.5714 30.7143" stroke="#81598D" stroke-opacity="0.76" stroke-width="5"/>
-              </svg></button></div>
-            <div class="popup" id="popup-2">
-              <div class="flip">
-                <h2>I. THE MAGICIAN</h2>
+          </div>
+        </div>
+        <div class="arcana2">
+          <img src="img/Star 8.svg" alt="star">
+          <h3>Major Arcana</h3>
+          <div class="box">
+            <a class="button" href="#popup2">Learn More</a>
+          </div>
+          <div id="popup2" class="overlay">
+            <div class="popup">
+              <h2>Minor Arcana</h2>
+              <a class="close" href="#">&times;</a>
+              <div class="content">
+                These are 56 cards divided into four suits, offering insights into everyday experiences, emotions, and practical matters. They are used to provide detailed insights into specific aspects of life, such as relationships, work, and personal growth.
               </div>
             </div>
-         </li>
-         <li>
-          <button type="button" class="btn" onclick="openPopup(3)">
-              <img src="img/Group 6.svg" alt="Back of a tarot card 3">
-          </button>
-          <div class="overlay" id="overlay-3"></div>
-          <div class="popup" id="popup-3">
-            <div class="flip">
-              <h2>II. THE HIGH PRIESTESS</h2>
-            </div>
-              <button type="button" onclick="closePopup(3)">x</button>
           </div>
-         </li>
-         <li>
-        <button type="button" class="btn" onclick="openPopup(4)">
-            <img src="img/Group 6.svg" alt="Back of a tarot card 4">
-        </button>
-        <div class="overlay" id="overlay-4"></div>
-        <div class="popup" id="popup-4">
-          <div class="flip">
-            <h2>III. THE EMPRESS</h2>
-          </div>
-            <button type="button" onclick="closePopup(4)">x</button>
         </div>
-         </li>
-         <li>
-      <button type="button" class="btn" onclick="openPopup(5)">
-          <img src="img/Group 6.svg" alt="Back of a tarot card 5">
-      </button>
-      <div class="overlay" id="overlay-5"></div>
-      <div class="popup" id="popup-5">
-        <div class="flip">
-          <h2>IV. THE EMPEROR</h2>
-        </div>
-          <button type="button" onclick="closePopup(5)">x</button>
-      </div>
-         </li>
-          <li>
-    <button type="button" class="btn" onclick="openPopup(6)">
-        <img src="img/Group 6.svg" alt="Back of a tarot card 6">
-    </button>
-    <div class="overlay" id="overlay-6"></div>
-    <div class="popup" id="popup-6">
-      <div class="flip">
-        <h2>V. THE HIEROPHANT</h2>
-      </div>
-        <button type="button" onclick="closePopup(6)">x</button>
+      </section>
     </div>
-         </li>
-         <li>
-          <button type="button" class="btn" onclick="openPopup(7)">
-              <img src="img/Group 6.svg" alt="Back of a tarot card 7">
-          </button>
-          <div class="overlay" id="overlay"></div>
-          <div class="popup" id="popup-7">
-            <div class="flip">
-              <h2>VI. THE LOVERS</h2>
-            </div>
-              <button type="button" onclick="closePopup(7)">x</button>
+
+    <section class="tarot-rules">
+      <div class="wrapper">
+        <div class="tarot-rules">
+          <img src="img/Group star.svg" alt="stars">
+          <img src="img/tarot rules.svg" alt="box">
+          <div class="tarot-context">
+            <h2>Steps of Fortune Reading in Tarot</h2>
+            <p>
+              <ol>
+                <li>Set the Mood: Create a peaceful atmosphere for your reading.</li>
+                <li>Shuffle the Deck: Mix the cards while focusing on your question.</li>
+                <li>Select a Spread: Choose a layout for the cards based on your question.</li>
+                <li>Draw the Cards: Pick the cards either randomly or as per the spread.</li>
+                <li>Interpret the Cards: Examine each card's symbolism and meaning in relation to your question.</li>
+                <li>Trust Your Intuition: Listen to your instincts and impressions.</li>
+                <li>Consider Card Combinations: See how cards interact with each other in the spread.</li>
+                <li>Tell the Story: Weave the card meanings into a coherent narrative.</li>
+                <li>Ask for Clarification: Draw extra cards if needed for clarity. </li>
+                <li>Reflect and Take Action: Use the insights to make informed decisions in your life.</li>
+              </ol>
+            </p>
           </div>
-        </li>
-          <!-- Repeat for other items (2 through 7) -->
-        </ul>
+        </div>
       </div>
-    </div>
-  
-    <script>
-      function openPopup(number) {
-        const overlay = document.getElementById(`overlay-${number}`);
-        const popup = document.getElementById(`popup-${number}`);
-        overlay.style.display = "block";
-        popup.style.display = "block";
-      }
-  
-      function closePopup(number) {
-        const overlay = document.getElementById(`overlay-${number}`);
-        const popup = document.getElementById(`popup-${number}`);
-        overlay.style.display = "none";
-        popup.style.display = "none";
-      }
-    </script>
-  
-  </body>
-  </html>
+    </section>
+
+   
