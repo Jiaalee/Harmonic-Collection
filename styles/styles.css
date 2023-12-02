@@ -2348,3 +2348,369 @@ right: 50%;
   background-color: #cee253ad; 
   border: 1px solid; 
   border-color: #7a8a15; }
+
+  .macbook-pro6 {
+    background-color: #fff9c5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+   }
+   .macbook-pro6 .div {
+    background-color: #fff9c5;
+    width: 1512px;
+    height: 4706px;
+    position: relative;
+   }
+   .macbook-pro6 .line {
+    position: absolute;
+    width: 1327px;
+    height: 5px;
+    top: 152px;
+    left: 92px;
+   }
+   .macbook-pro6 .arrow {
+    position: absolute;
+    width: 61px;
+    height: 52px;
+    top: 54px;
+    left: 88px;
+   }
+   .macbook-pro6 .text-wrapper {
+    position: absolute;
+    width: 1309px;
+    height: 178px;
+    top: 251px;
+    left: 101px;
+    font-family: "STIX Two Text-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 160px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 45px;
+   }
+
+   .macbook-pro6 .p {
+    position: absolute;
+    height: 45px;
+    top: 1362px;
+    left: 128px;
+    font-family: "STIX Two Text-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 90px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+   }
+   .macbook-pro6 .group {
+    position: absolute;
+    width: 1512px;
+    height: 592px;
+    top: 464px;
+    left: 0;
+   }
+   .macbook-pro6 .text-wrapper-2 {
+    position: absolute;
+    width: 1182px;
+    height: 474px;
+    top: 1535px;
+    left: 203px;
+    font-family: "Sunflower-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 45px;
+   }
+   .macbook-pro6 .img {
+    position: absolute;
+    width: 1428px;
+    height: 386px;
+    top: 2044px;
+    left: 50px;
+   }
+   .macbook-pro6 .text-wrapper-3 {
+    position: absolute;
+    width: 763px;
+    height: 808px;
+    top: 2692px;
+    left: 135px;
+    font-family: "Sunflower-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 45px;
+   }
+   .macbook-pro6 .overlap-group-wrapper {
+    position: absolute;
+    width: 325px;
+    height: 371px;
+    top: 3103px;
+    left: 1018px;
+   }
+   .macbook-pro6 .overlap-group {
+    position: relative;
+    height: 371px;
+   }
+   .macbook-pro6 .ellipse {
+    width: 242px;
+    height: 57px;
+    top: 286px;
+    left: 40px;
+    border-radius: 121px/28.5px;
+    position: absolute;
+    border: 6px solid;
+    border-color: #f0c966;
+   }
+   .macbook-pro6 .ellipse-2 {
+    width: 242px;
+    height: 57px;
+    top: 314px;
+    left: 40px;
+    border-radius: 121px/28.5px;
+    position: absolute;
+    border: 6px solid;
+    border-color: #f0c966;
+   }
+
+   .macbook-pro6 .ellipse-3 {
+    width: 325px;
+    height: 325px;
+    top: 0;
+    left: 0;
+    background-color: #fff9c6;
+    border-radius: 162.5px;
+    position: absolute;
+    border: 6px solid;
+    border-color: #f0c966;
+   }
+   .macbook-pro6 .star {
+    position: absolute;
+    width: 71px;
+    height: 71px;
+    top: 47px;
+    left: 61px;
+   }
+   .macbook-pro6 .star-2 {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    top: 28px;
+    left: 141px;
+   }
+   .macbook-pro6 .star-3 {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    top: 67px;
+    left: 232px;
+   }
+   .macbook-pro6 .overlap {
+    position: absolute;
+    width: 1512px;
+    height: 990px;
+    top: 3716px;
+    left: 0;
+    background-color: #f0c966;
+   }
+   .macbook-pro6 .overlap-wrapper {
+    position: absolute;
+    width: 495px;
+    height: 565px;
+    top: 295px;
+    left: 499px;
+   }
+
+   .macbook-pro6 .overlap-2 {
+    position: relative;
+    height: 565px;
+   }
+   .macbook-pro6 .ellipse-4 {
+    position: absolute;
+    width: 369px;
+    height: 87px;
+    top: 436px;
+    left: 61px;
+    border-radius: 184.29px/43.41px;
+    border: 6px solid;
+    border-color: #000000;
+   }
+   .macbook-pro6 .ellipse-5 {
+    position: absolute;
+    width: 369px;
+    height: 87px;
+    top: 478px;
+    left: 61px;
+    border-radius: 184.29px/43.41px;
+    border: 6px solid;
+    border-color: #000000;
+   }
+   .macbook-pro6 .ellipse-6 {
+    position: absolute;
+    width: 495px;
+    height: 495px;
+    top: 0;
+    left: 0;
+    background-color: #fff9c6;
+    border-radius: 247.5px;
+    border: 6px solid;
+    border-color: #000000;
+   }
+   .macbook-pro6 .star-4 {
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    top: 72px;
+    left: 93px;
+   }
+   .macbook-pro6 .star-5 {
+    position: absolute;
+    width: 59px;
+    height: 59px;
+    top: 43px;
+    left: 215px;
+   }
+   .macbook-pro6 .star-6 {
+    position: absolute;
+    width: 59px;
+    height: 59px;
+    top: 102px;
+    left: 353px;
+   }
+   .macbook-pro6 .group-2 {
+    position: absolute;
+    width: 252px;
+    height: 727px;
+    top: 230px;
+    left: 27px;
+   }
+   .macbook-pro6 .star-7 {
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    top: 0;
+    left: 15px;
+   }
+   .macbook-pro6 .star-8 {
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    top: 406px;
+    left: 54px;
+   }
+   .macbook-pro6 .star-9 {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    top: 236px;
+    left: 27px;
+   }
+   .macbook-pro6 .star-10 {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    top: 518px;
+    left: 110px;
+   }
+   .macbook-pro6 .star-11 {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    top: 143px;
+    left: 96px;
+   }
+
+   .macbook-pro6 .star-12 {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    top: 646px;
+    left: 0;
+   }
+   .macbook-pro6 .star-13 {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    top: 673px;
+    left: 198px;
+   }
+   .macbook-pro6 .group-3 {
+    position: absolute;
+    width: 233px;
+    height: 754px;
+    top: 201px;
+    left: 1217px;
+   }
+   .macbook-pro6 .overlap-3 {
+    position: absolute;
+    width: 149px;
+    height: 135px;
+    top: 603px;
+    left: 83px;
+   }
+   .macbook-pro6 .star-14 {
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    top: 27px;
+    left: 41px;
+   }
+   .macbook-pro6 .star-15 {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    top: 0;
+    left: 0;
+   }
+   .macbook-pro6 .star-16 {
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    top: 112px;
+    left: 70px;
+   }
+
+   .macbook-pro6 .star-17 {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    top: 447px;
+    left: 95px;
+   }
+   .macbook-pro6 .star-18 {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    top: 0;
+    left: 150px;
+   }
+   .macbook-pro6 .star-19 {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    top: 671px;
+    left: 0;
+   }
+   .macbook-pro6 .star-20 {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    top: 307px;
+    left: 151px;
+   }
+   .macbook-pro6 .text-wrapper-4 {
+    position: absolute;
+    top: 82px;
+    left: 225px;
+    font-family: "STIX Two Text-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 90px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+   }
