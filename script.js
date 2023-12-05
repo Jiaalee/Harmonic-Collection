@@ -33,3 +33,15 @@ function changeImage() {
 
   }
 
+  function changeImage3() {
+    var images = ["img/Group 88.svg", "img/Group 89.svg", "img/Group 90.svg", "img/Group 91.svg", "img/Group 92.svg"];
+    var imgElement = document.getElementById('clickableImage3');
+    var currentIndex = images.indexOf(imgElement.src);
+  
+    var randomIndex = currentIndex;
+    while (randomIndex === currentIndex) {
+      randomIndex = Math.floor(Math.random() * images.length);
+    }
+  
+    imgElement.src = images[randomIndex];
+  }
