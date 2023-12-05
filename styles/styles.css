@@ -2114,6 +2114,48 @@ html {
   top: 1472px;
   left: 135px;
 }
+.entry5 .tooltip-1,
+.entry5 .tooltip-2,
+.entry5 .tooltip-3,
+.entry5 .tooltip-4,
+.entry5 .tooltip-5,
+.entry5 .tooltip-6,
+.entry5 .tooltip-7 {
+  position: absolute;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.entry5 .tooltiptext {
+  visibility: hidden;
+  font-family: "Rambla";
+  width: 200px;
+  background-color: #cee253;
+  color: #000000;
+  text-align: center;
+  border-radius: 6px;
+  font-family: "Questrial";
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  top: 250px;
+  left: 200px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Show the tooltip text on hover */
+.entry5 .tooltip-1:hover .tooltiptext,
+.entry5 .tooltip-2:hover .tooltiptext,
+.entry5 .tooltip-3:hover .tooltiptext,
+.entry5 .tooltip-4:hover .tooltiptext,
+.entry5 .tooltip-5:hover .tooltiptext,
+.entry5 .tooltip-6:hover .tooltiptext,
+.entry5 .tooltip-7:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
 
 .entry5 .ellipse-6 {
   position: absolute;
@@ -2967,6 +3009,13 @@ html {
   white-space: nowrap;
 }
 
+#sketch-holder {
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+
 .entry9 .p {
   position: absolute;
   width: 660px;
@@ -3014,10 +3063,10 @@ html {
 
 .entry9 .group-4 {
   position: absolute;
-  width: 120px;
-  height: 557px;
+  width: 287px;
+  height: 567px;
   top: 4273px;
-  left: 696px;
+  left: 610px;
 }
 
 .entry9 .group-5 {
